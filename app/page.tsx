@@ -33,6 +33,10 @@ export default function Home() {
             How it Works
           </a>
         </div>
+
+        <p className="mt-6 text-sm text-gray-500">
+          Currently piloting with local clinics.
+        </p>
       </section>
 
       {/* Why AROVIA */}
@@ -45,6 +49,29 @@ export default function Home() {
           <div>✔ SOP-driven daily operations</div>
           <div>✔ Central support & monitoring</div>
         </div>
+      </section>
+
+      {/* Who We Are */}
+      <section className="max-w-6xl mx-auto px-6 py-20 border-t">
+        <h2 className="text-3xl font-semibold">Who We Are</h2>
+
+        <p className="mt-6 text-gray-600 max-w-3xl">
+          AROVIA is a healthcare operations platform focused on helping
+          clinics run with hospital-level discipline. We specialize in
+          staff management, standardized workflows, and digital patient
+          records so doctors can focus entirely on patient care.
+        </p>
+      </section>
+
+      {/* Mission */}
+      <section className="max-w-6xl mx-auto px-6 py-20 border-t">
+        <h2 className="text-3xl font-semibold">Our Mission</h2>
+
+        <p className="mt-6 text-gray-600 max-w-3xl">
+          Our mission is to bring professional operations and modern
+          systems to every local clinic, improving patient experience
+          while reducing the daily burden on doctors.
+        </p>
       </section>
 
       <Footer />
